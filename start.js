@@ -68,7 +68,7 @@ function showOutput(res) {
       Data
     </div>
     <div class="card-body">
-      <pre>${JSON.stringify(res.data, null, 2)}</pre>
+      <pre>${JSON.stringify(res.body, null, 2)}</pre>
     </div>
   </div>
 
