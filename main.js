@@ -28,10 +28,7 @@ function getTodos() {
 function addTodo() {
   axios
     .post('http://backend.cloud4c2.com:8081//api/users/list', {
-      headers:headers,
-		json:true,
-		// data:body,
-		withCredentials: true
+   
     })
     .then(res => showOutput(res))
     .catch(err => console.error(err));
